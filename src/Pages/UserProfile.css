@@ -1,0 +1,32 @@
+
+.user-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+.card {
+    background: white; /* White background for the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    padding: 20px; /* Padding inside the card */
+    width: 300px; /* Fixed width for the card */
+    text-align: left; /* Left-align text */
+}
+
+h1 {
+    font-size: 24px; /* Font size for the title */
+    margin-bottom: 10px; /* Space below title */
+}
+
+h2 {
+    font-size: 18px; /* Font size for subtitles */
+    margin-top: 20px; /* Space above subtitle */
+}
+
+p {
+    margin: 5px 0; /* Space between paragraphs */
+}
+

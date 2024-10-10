@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif; /* Basic font for better readability */
+}
+
+.intro-heading {
+    text-align: center; /* Center the main heading */
+    margin-bottom: 20px;
+    color: #2c3e50; /* Consistent heading color */
+}
+
+.intro-paragraph {
+    text-align: center; /* Center the introductory paragraph */
+    margin-bottom: 30px;
+    color: #34495e; /* Slightly lighter color for the paragraph */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between columns */
+    align-items: start; /* Align items at the start */
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 20px; /* Padding around the container */
+    border-radius: 8px; /* Optional: Rounded corners */
+}
+
+.text-section {
+    padding: 20px;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: flex-start; /* Left align the text */
+}
+
+h1 {
+    color: #2c3e50; /* Heading color */
+    margin-bottom: 15px;
+    text-align: left; /* Left align the subheading */
+}
+
+.image-section {
+    display: flex; /* Ensure the image is centered within its section */
+    justify-content: flex-start; /* Align the image to the left */
+}
+
+.image-section img {
+    width: 100%; /* Make the image responsive */
+    max-width: 300px; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0; /* Remove auto margins for left alignment */
+}

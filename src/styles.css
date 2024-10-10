@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; 
+    /* background-image: url('./Assets/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+   
+}
+
+h1 {
+    color: white; /* Example heading color */
+}
+

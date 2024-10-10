@@ -1,25 +1,30 @@
-/* NavBar.css */
+
 nav {
-    background-color: grey; 
-    padding: 1rem; /* Padding around the navbar */
+    background-color: #282c34; 
+    padding: 1rem; 
+    width: 100%
 }
 
 ul {
-    list-style-type: none; /* Remove bullet points from the list */
+    list-style-type: none; 
+    display: flex; 
+    justify-content: space-around; 
     margin: 0; 
     padding: 0; 
-    display: flex; 
+    width: 100%;
 }
 
 li {
-    margin-right: 2rem; 
+    margin: 0; 
 }
 
 a {
-    color: pink; 
+    color: pink;
     text-decoration: none; 
+    font-size: 1.2rem; 
+    transition: color 0.3s; 
 }
 
 a:hover {
-    text-decoration: underline; 
+    color: lightpink; 
 }
