@@ -1,0 +1,21 @@
+.about-container {
+    max-width: 800px; /* Optional: Limit the width for readability */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add some padding */
+    background-color: #f8f9fa; /* Light background for contrast */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+    margin-top: 100px;
+}
+
+.centered-heading {
+    text-align: center; /* Center align the headings */
+    color: #2c3e50; /* Heading color */
+    margin-bottom: 20px; /* Space below the headings */
+}
+
+p {
+    text-align: justify; /* Justify text for better readability */
+    color: #34495e; /* Text color */
+    line-height: 1.6; /* Increase line height for readability */
+}

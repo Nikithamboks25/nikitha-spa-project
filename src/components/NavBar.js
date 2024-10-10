@@ -13,11 +13,11 @@ export default function NavBar(){
                     <Link to="/about">About</Link>
                 </li>
                 <li>
-                    <Link to="/userProfile">User Profile</Link>
+                    <Link to="/user/username">User Profile</Link>
                 </li>
             </ul>
         </nav>
 
-    );
+    )
     
 }

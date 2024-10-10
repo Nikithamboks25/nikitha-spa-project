@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './UserProfile.css'; 
+import profilePicture from './../Assets/profilePicture.jpg'; // Path to your profile picture
 
 function UserProfile() {
     const [userData, setUserData] = useState(null);
@@ -25,6 +26,9 @@ function UserProfile() {
 
     return (
         <div className="user-profile">
+            <div className="profile-picture">
+                <img src={profilePicture} alt="Profile" />
+            </div>
             <div className="card">
                 <h1>User Profile</h1>
                 <p><strong>Name:</strong> {userData.name}</p>
@@ -34,7 +38,6 @@ function UserProfile() {
                 <ul>
                     {userData.subscribedTutorials.map((tutorial, index) => (
                         <li key={index}>{tutorial}</li>
-                        
                     ))}
                 </ul>
             </div>

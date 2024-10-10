@@ -1,32 +1,36 @@
-
 .user-profile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; /* Full viewport height */
-    background-color: #f9f9f9; /* Light background color */
+    max-width: 1200px; /* Optional: Limit the width of the page */
+    margin: 0 auto; /* Center the content */
+    padding: 20px; /* Padding around the content */
+    display: flex; /* Use flexbox for layout */
+    align-items: flex-start; /* Align items at the start */
+}
+
+.profile-picture {
+    margin-right: 20px; /* Space between picture and card */
+}
+
+.profile-picture img {
+    width: 150px; /* Set width of the profile picture */
+    height: 150px; /* Set height of the profile picture */
+    border-radius: 50%; /* Circular profile picture */
+    object-fit: cover; /* Cover the entire area */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Shadow for depth */
 }
 
 .card {
-    background: white; /* White background for the card */
+    background-color: #ffffff; /* White background for the card */
+    padding: 40px; /* More padding for the card */
     border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-    padding: 20px; /* Padding inside the card */
-    width: 300px; /* Fixed width for the card */
-    text-align: left; /* Left-align text */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    flex-grow: 1; /* Allow card to take remaining space */
 }
 
-h1 {
-    font-size: 24px; /* Font size for the title */
-    margin-bottom: 10px; /* Space below title */
+.card h1 {
+    margin-bottom: 20px; /* Space below heading */
+    text-align: center; /* Center the heading */
 }
 
-h2 {
-    font-size: 18px; /* Font size for subtitles */
-    margin-top: 20px; /* Space above subtitle */
+.card p {
+    margin: 10px 0; /* Space between paragraphs */
 }
-
-p {
-    margin: 5px 0; /* Space between paragraphs */
-}
-
