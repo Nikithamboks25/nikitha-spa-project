@@ -20,7 +20,7 @@ const users = [
         name: "Sonwabiso Maloni",
         university: "Harvard University",
         studentNumber: "654321",
-        subscribedTutorials: ["Advanced Mathematics", "Physics Basics"],
+        subscribedTutorials: ["Advanced Computer Basics", "Software Components"],
         profilePicture: profilePicture2
     },
     {
